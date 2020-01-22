@@ -1,0 +1,78 @@
+body{
+	background: #0f0c29;  
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+/* background: #4b6cb7; 
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  
+background: linear-gradient(to right, #182848, #4b6cb7); */
+
+
+
+	font-family: "Nunito",sans-serif;
+}
+.blurb h2{
+	color:#EA1C2C; 
+	font-size: 2.5rem;
+}
+.blurb p{
+	color: #f498b8;
+	font-weight:200;
+	font-size: 1.125rem;
+	line-height: 2;
+
+
+}
+.content{
+	margin-top: 100px;
+}
+#main {
+	font-size: 1.5rem;
+ 	font-weight: 100;
+}
+ #main .navbar-brand{
+	
+	color: #77eded;
+ 	font-size: 1.5rem;
+ 	font-weight: 100;
+}
+#main .nav-link{
+	color: #ffffff;
+}
+#main .nav-link:hover{
+	color: #77eded;
+}
+/* #first{
+	height: 2rem;
+	background: url("images/pattern3.jpeg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+} */
+
+.jumbotron{
+	background: url("images/back3.jpg");
+	background-size: cover;
+	/* background-position: center; */
+	background-position: 1.2em;
+}
+.navbar.scrolled{
+	background-color: #271785;
+	transition: background 500ms;
+}
+
+.card-body{
+	background: #0f0c29;  
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+	
+}
+@media (max-width: 1000px){
+	#headinggroup h1{
+		font-size: 3rem;
+	}
+}
+
+
+
