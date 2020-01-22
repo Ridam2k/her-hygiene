@@ -1,0 +1,41 @@
+{
+  "name": "her-hygiene",
+  "version": "1.0.0",
+  "description": "An app to help women with their hygiene and health",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-rockt/her-hygiene.git"
+  },
+  "keywords": [
+    "women",
+    "menstruation",
+    "sanitary",
+    "pads",
+    "hygiene",
+    "health"
+  ],
+  "author": "Team Rocket",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/team-rockt/her-hygiene/issues"
+  },
+  "homepage": "https://github.com/team-rockt/her-hygiene#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "prettier": "^1.18.2"
+  }
+}
